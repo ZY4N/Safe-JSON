@@ -168,11 +168,13 @@ int main() {
 	auto parser = jss::parser(is);
 	auto value = parser.parse<my_default_object>();
 
-	auto &colors = value.get<"colors">();
-
 	auto serializer = jss::serializer(std::cout);
 	serializer.serialize<my_default_object>(value);
 	std::cout << std::endl;
+
+	auto &colors = value.get<"colors">();
+
+	colors.push_back({ 0, 0, 0 });
 
 	for (const auto& c : colors) {
 		std::cout
