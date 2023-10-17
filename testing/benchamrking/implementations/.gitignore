@@ -2,6 +2,9 @@ dynamic_json
 OrgJson.class
 simd_json
 
+# Compiled from https://github.com/stleary/JSON-java/releases/tag/20231013
+json-java.jar
+
 # https://raw.githubusercontent.com/simdjson/simdjson/master/singleheader/simdjson.cpp
 simdjson.cpp
 

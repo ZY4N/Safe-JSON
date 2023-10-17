@@ -3,7 +3,9 @@
 A JSON library made for config files.
 
 This library provides a parser, serializer and needed data structures to safely read and write config files,
+
 by replacing missing or malformed data with provided default values.
+
 For convenience the library also contains a dynamic parser that can deal with unknown JSON data.
 
 
@@ -90,7 +92,9 @@ The parser implementation is tested for correctness using the [JSON Parsing Test
 
 ## Performance
 Performance is not the main focus of this library, but here is a small list, comparing the parsing and serialization speed to other implementations.
+
 These numbers represent the time taken to parse the `twitter.json` from a string buffer and serializing to a new string on an i7-10750H.
+
 (Benchmakring is only provided for a basic overview and does not represent scientifically sound data) 
 
 `node benchamrk.js ./implementations ../twitter.json 100`
