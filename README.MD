@@ -89,8 +89,8 @@ The parser implementation is tested for correctness using the [JSON Parsing Test
 * Tests that limit the floating point number representation to less than the C++ standard
 
 ## Performance
-Performance is not the main focus of this library, but here is a small list, comparing the parsing and serialization speed to other implementations.\
-These numbers represent the time taken to parse the [twitter.jso file](testing/benchmarking/twitter.json) from a string buffer and serializing to a new string.\
+Performance is not the main focus of this library, but here is a small list, comparing the parsing and serialization speed to other implementations.
+These numbers represent the average time taken to parse the [twitter.json](testing/benchmarking/twitter.json) file from a string buffer and serializing to a new string across 100 runs.\
 (Benchmarking is only provided for a basic overview and does not represent scientifically sound data) 
 
 `node benchamrk.js ./implementations ../twitter.json 100`
