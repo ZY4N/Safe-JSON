@@ -1,3 +1,4 @@
+dynamic_from_file
 dynamic_from_string
 safe_from_string
-dynamic_from_file
+safe_adapter
