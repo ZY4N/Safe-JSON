@@ -1,0 +1,9 @@
+dynamic_json
+OrgJson.class
+simd_json
+
+# https://raw.githubusercontent.com/simdjson/simdjson/master/singleheader/simdjson.cpp
+simdjson.cpp
+
+# https://raw.githubusercontent.com/simdjson/simdjson/master/singleheader/simdjson.h
+simdjson.h
