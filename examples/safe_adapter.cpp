@@ -163,6 +163,7 @@ constexpr my_object_builder::my_default_object_t my_default_object{};
 
 int main() {
 
+	// missing colors wil be replaced with default values
 	auto is = std::stringstream("{}");
 
 	auto parser = jss::parser(is);
@@ -174,6 +175,7 @@ int main() {
 
 	auto &colors = value.get<"colors">();
 
+	// The vector can be modified
 	colors.push_back({ 0, 0, 0 });
 
 	for (const auto& c : colors) {
